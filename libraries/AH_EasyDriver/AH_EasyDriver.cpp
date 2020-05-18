@@ -197,14 +197,14 @@ void AH_EasyDriver::setEnable(boolean VALUE){
 
 void AH_EasyDriver::sleepON(){
 
-   setSleep(LOW);
+   setSleep(HIGH);
 }
 
 //********************************************
 
 void AH_EasyDriver::sleepOFF(){
 
-   setSleep(HIGH);
+   setSleep(LOW);
 }
 
 //********************************************

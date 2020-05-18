@@ -171,14 +171,14 @@ void AH_EasyDriver::setDirection(boolean DIRECTION){
 
 void AH_EasyDriver::enableDriver(){
 
-  setEnable(LOW);
+  setEnable(HIGH);
 }
 
 //*********************************************
 
 void AH_EasyDriver::disableDriver(){
 
-  setEnable(HIGH);
+  setEnable(LOW);
 }
 
 //*********************************************
